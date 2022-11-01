@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#"
+     xml:base="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-2="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#expresses -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#expresses"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#has_Relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#has_Relation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#mustBe -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#mustBe"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Abuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Abuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Abusive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Abusive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Anger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Accuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Accuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Acknowledgement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Acknowledgement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Actions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Actions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Affection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Affection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Amusement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Amusement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Anger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Anger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Aunt -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Aunt">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Relationships"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Blame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Blame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Boyfriend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Boyfriend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Societal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Child -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Close -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Close">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment"/>
+        <has_Relation rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Love"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Communication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Communication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Compromise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Compromise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Control -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Control">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Cousin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Cousin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Cruelty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Cruelty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Daughter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Daughter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Demean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Demean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Disgust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Disgust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Distant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Distant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment"/>
+        <has_Relation rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Anger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Relationships"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Employee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Employee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Business"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Euphoric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Euphoric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Father -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Father">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Fear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Fear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Girlfriend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Girlfriend">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Give -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Give">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Grandmother -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Grandmother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Happy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Happy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Harassment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Harassment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Hatred -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Hatred">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment"/>
+        <mustBe rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Loving"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Mutual_Respect"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment"/>
+        <mustBe rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Loving"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Honesty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Honesty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Husband -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Husband">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Individual_Contributor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Individual_Contributor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Employee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Infatuation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Infatuation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Jealousy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Jealousy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Love -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Love">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Loving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Loving">
+        <expresses rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Honesty"/>
+        <expresses rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Trust"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Love"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Employee"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Mother -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Mother">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Mutual_Respect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Mutual_Respect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Partner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Partner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Passionate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Passionate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Actions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Relationships -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Relationships"/>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Shame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Shame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sharing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sharing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Societal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Societal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Societal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Relationships"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Son -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Son">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Supportive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Supportive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment"/>
+        <has_Relation rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sympathy"/>
+        <mustBe rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Supress -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Supress">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sympathy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sympathy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Take -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Take">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Timid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Timid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Uncle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Uncle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Unhealthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Unhealthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Wife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Wife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Withdrawal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Withdrawal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy_Relationship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy_Relationship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Grandmother"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Lance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Lance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Amusement"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
