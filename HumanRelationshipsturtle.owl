@@ -1,0 +1,415 @@
+@prefix : <http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix untitled-ontology-2: <http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#> .
+@base <http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2> .
+
+<http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#expresses
+untitled-ontology-2:expresses rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#has_Relation
+untitled-ontology-2:has_Relation rdf:type owl:AnnotationProperty .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#mustBe
+untitled-ontology-2:mustBe rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Abuse
+untitled-ontology-2:Abuse rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Abusive
+untitled-ontology-2:Abusive rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Embodiment ;
+                            rdfs:isDefinedBy untitled-ontology-2:Anger .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Accuse
+untitled-ontology-2:Accuse rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Acknowledgement
+untitled-ontology-2:Acknowledgement rdf:type owl:Class ;
+                                    rdfs:subClassOf untitled-ontology-2:Positive .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Actions
+untitled-ontology-2:Actions rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Domain .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Affection
+untitled-ontology-2:Affection rdf:type owl:Class ;
+                              rdfs:subClassOf untitled-ontology-2:Positive .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Amusement
+untitled-ontology-2:Amusement rdf:type owl:Class ;
+                              rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Anger
+untitled-ontology-2:Anger rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Aunt
+untitled-ontology-2:Aunt rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Biological
+untitled-ontology-2:Biological rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Relationships .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Blame
+untitled-ontology-2:Blame rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Boyfriend
+untitled-ontology-2:Boyfriend rdf:type owl:Class ;
+                              rdfs:subClassOf untitled-ontology-2:Social .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Business
+untitled-ontology-2:Business rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Societal .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Characteristics
+untitled-ontology-2:Characteristics rdf:type owl:Class ;
+                                    rdfs:subClassOf untitled-ontology-2:Domain .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Child
+untitled-ontology-2:Child rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Close
+untitled-ontology-2:Close rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Embodiment ;
+                          untitled-ontology-2:has_Relation untitled-ontology-2:Love .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Communication
+untitled-ontology-2:Communication rdf:type owl:Class ;
+                                  rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Compromise
+untitled-ontology-2:Compromise rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Control
+untitled-ontology-2:Control rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Cousin
+untitled-ontology-2:Cousin rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Cruelty
+untitled-ontology-2:Cruelty rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Daughter
+untitled-ontology-2:Daughter rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Demean
+untitled-ontology-2:Demean rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Disgust
+untitled-ontology-2:Disgust rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Distant
+untitled-ontology-2:Distant rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Embodiment ;
+                            untitled-ontology-2:has_Relation untitled-ontology-2:Anger .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Domain
+untitled-ontology-2:Domain rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Embodiment
+untitled-ontology-2:Embodiment rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Relationships .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Emotions
+untitled-ontology-2:Emotions rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Domain .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Employee
+untitled-ontology-2:Employee rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Business .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Euphoric
+untitled-ontology-2:Euphoric rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Father
+untitled-ontology-2:Father rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Fear
+untitled-ontology-2:Fear rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Girlfriend
+untitled-ontology-2:Girlfriend rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Social .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Give
+untitled-ontology-2:Give rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-2:Positive .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Grandmother
+untitled-ontology-2:Grandmother rdf:type owl:Class ;
+                                rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Happy
+untitled-ontology-2:Happy rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Harassment
+untitled-ontology-2:Harassment rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Hatred
+untitled-ontology-2:Hatred rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy
+untitled-ontology-2:Healthy rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Embodiment ;
+                            untitled-ontology-2:mustBe untitled-ontology-2:Loving ;
+                            rdfs:isDefinedBy untitled-ontology-2:Mutual_Respect .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource untitled-ontology-2:Healthy ;
+   owl:annotatedProperty rdfs:subClassOf ;
+   owl:annotatedTarget untitled-ontology-2:Embodiment ;
+   untitled-ontology-2:mustBe untitled-ontology-2:Loving
+ ] .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Honesty
+untitled-ontology-2:Honesty rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Husband
+untitled-ontology-2:Husband rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Social .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Individual_Contributor
+untitled-ontology-2:Individual_Contributor rdf:type owl:Class ;
+                                           rdfs:subClassOf untitled-ontology-2:Employee .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Infatuation
+untitled-ontology-2:Infatuation rdf:type owl:Class ;
+                                rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Jealousy
+untitled-ontology-2:Jealousy rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Love
+untitled-ontology-2:Love rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Loving
+untitled-ontology-2:Loving rdf:type owl:Class ;
+                           untitled-ontology-2:expresses untitled-ontology-2:Honesty ,
+                                                         untitled-ontology-2:Trust ;
+                           rdfs:isDefinedBy untitled-ontology-2:Love .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Manager
+untitled-ontology-2:Manager rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Employee .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Mother
+untitled-ontology-2:Mother rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Mutual_Respect
+untitled-ontology-2:Mutual_Respect rdf:type owl:Class ;
+                                   rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Negative
+untitled-ontology-2:Negative rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Actions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Partner
+untitled-ontology-2:Partner rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Social .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Passionate
+untitled-ontology-2:Passionate rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Positive
+untitled-ontology-2:Positive rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Actions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Relationships
+untitled-ontology-2:Relationships rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sad
+untitled-ontology-2:Sad rdf:type owl:Class ;
+                        rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Shame
+untitled-ontology-2:Shame rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sharing
+untitled-ontology-2:Sharing rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Positive .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Social
+untitled-ontology-2:Social rdf:type owl:Class ;
+                           rdfs:subClassOf untitled-ontology-2:Societal .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Societal
+untitled-ontology-2:Societal rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Relationships .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Son
+untitled-ontology-2:Son rdf:type owl:Class ;
+                        rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Support
+untitled-ontology-2:Support rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Positive .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Supportive
+untitled-ontology-2:Supportive rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Embodiment ;
+                               untitled-ontology-2:has_Relation untitled-ontology-2:Sympathy ;
+                               untitled-ontology-2:mustBe untitled-ontology-2:Healthy .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Supress
+untitled-ontology-2:Supress rdf:type owl:Class ;
+                            rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Sympathy
+untitled-ontology-2:Sympathy rdf:type owl:Class ;
+                             rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Take
+untitled-ontology-2:Take rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Timid
+untitled-ontology-2:Timid rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Emotions .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Trust
+untitled-ontology-2:Trust rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Characteristics .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Uncle
+untitled-ontology-2:Uncle rdf:type owl:Class ;
+                          rdfs:subClassOf untitled-ontology-2:Biological .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Unhealthy
+untitled-ontology-2:Unhealthy rdf:type owl:Class ;
+                              rdfs:subClassOf untitled-ontology-2:Embodiment .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Wife
+untitled-ontology-2:Wife rdf:type owl:Class ;
+                         rdfs:subClassOf untitled-ontology-2:Social .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Withdrawal
+untitled-ontology-2:Withdrawal rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-2:Negative .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Healthy_Relationship
+untitled-ontology-2:Healthy_Relationship rdf:type owl:NamedIndividual ,
+                                                  untitled-ontology-2:Grandmother .
+
+
+###  http://www.semanticweb.org/lanceriedel/ontologies/2022/9/untitled-ontology-2#Lance
+untitled-ontology-2:Lance rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-2:Amusement .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
